@@ -1,37 +1,44 @@
+/*
+    Theme Name: Medilab
+    Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 20px;
-  color: #999999;
-  font-size: 300;
-  font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	color: #999999;
+	font-size: 300;
+	font-size: 16px;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 h1, h2, h3, h4, h5, h6
 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  color: #222222;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #222222;
 }
 a, a:hover, a:focus, a:active{
     outline: none;
 }
 
 .section-padding{
-  padding: 60px 0px;
+	padding: 60px 0px;
 
 }
 h2 {
@@ -53,17 +60,10 @@ hr.botm-line {
 /***************************************
 banner
 ***************************************/
-  .res
-  {
-
-  width: 350px;
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-  }
-
-/* Brand Name */
 .navbar {
     margin-bottom: 0px;
     border: 0px;
+
 }
 .navbar {
     border-radius: 0px;
@@ -74,7 +74,6 @@ banner
 
 }
 .navbar-default {
-    background-color: transparent;
     border: 0px;
 }
 .navbar {
@@ -83,8 +82,8 @@ banner
 
 .navbar-brand
 {
-  font-family: 'Chewy', cursive;
-  font-size: 32px;
+	font-family: 'Chewy', cursive;
+	font-size: 32px;
 }
 
 .navbar-brand img {
@@ -95,22 +94,22 @@ banner
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #EA6045;
 }
-
+.navbar ,.navbar-default, .navbar-fixed-top
+{
+    background-color: RGBA(13, 70, 83, 0.78)
+}
 @media (max-width: 768px) {
-  .navbar-collapse {
-    background: rgba(28,74,90, 0.9);
-  }
+
 }
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(28,74,90, 0.9);
 }
 
 .white
 {
-  color: #fff;
-  width: 100% !important;
+	color: #fff;
+	width: 100% !important;
     font-size: 150px;
 }
 .name{
@@ -135,25 +134,29 @@ banner
       text-transform: uppercase;
       font-style: Felix Titling;
 }
+.lo
+{
+    width: 80%;
+        box-shadow: 3px -13px 5px 0px rgba(0, 0, 0, 0.18);
+
+}
 .block
 {
-  display: block;
+	display: block;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #fff;
-    text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
-}
+
+
+
 .navbar-default .navbar-nav > li > a
 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
-  color: #fff;
+	color: #fff;
     text-transform: uppercase;
     background-color: rgba(12, 184, 182, 0.21);
 }
@@ -162,92 +165,39 @@ banner
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(12, 184, 182) !important;
 }
-/* Dropdown Menu */
-
-
-
-.dropdown-menu > li > a {color:black;padding:6px 20px;}
-
-
-
-
-.dropdown-menu .divider {background-color:#871818}
-
-/* Navbar Toggle */
-
-.navbar-toggle {margin-top:18px}
-
-
-
-
-
-
-
-.name{
-
-  font-size: 100px;
-  color: red;
-      text-transform: lowercase;
-      font-style: Felix Titling;
-
-}
-.w {
-
-  font-size: 100px;
-  color: white;
-      text-transform: uppercase;
-      font-style: Felix Titling;
-}
-.w1 {
-
-  font-size: 70px;
-  color: white;
-      text-transform: uppercase;
-      font-style: Felix Titling;
-}
-.block
-{
-  display: block;
-}
-
-.affix {
-    background-color: #ffffff !important;
-}
-
 #banner{
-  background: url('../img/bg-banner.jpg') no-repeat fixed;
-  background-size: cover;
-  min-height: 650px;
-  position: relative;
+	background: url('../img/bg-banner.jpg') no-repeat fixed;
+	background-size: cover;
+	min-height: 650px;
+	position: relative;
 }
 .bg-color{
-  background-color: RGBA(13, 70, 83, 0.78);
-  min-height: 650px;
+	background-color: RGBA(13, 70, 83, 0.78);
+	min-height: 650px;
 }
 .banner-info{
-  padding-top: 190px;
+	padding-top: 190px;
 }
 .banner-logo img{
-  display: inline-block;
+	display: inline-block;
 }
 .banner-text{
-  color: #fff;
+	color: #fff;
 }
 .banner-text h1{
-  font-family: 'Candal', sans-serif;
-  font-size: 35px;
-  text-transform: uppercase;
-  padding-bottom:15px;
+	font-family: 'Candal', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom:15px;
 }
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
-  margin-top: 30px;
-  padding: 10px 20px;
-  font-size: 12px;
-  background-color: rgba(12, 184, 182, 0.91);
-  border-radius: 3px;
-  color: #fff;
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 12px;
+	background-color: rgba(12, 184, 182, 0.91);
+	border-radius: 3px;
+	color: #fff;
 }
 .overlay-detail a i {
     text-align: center;
@@ -261,46 +211,41 @@ banner
     padding-top: 8px;
     display: inline-block;
 }
-.ap
-{
-  width: 350px;
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-  }
 /***************************************
 services
 ***************************************/
 .icon i{
-  color: #0cb8b6;
-  font-size: 45px;
-  margin-bottom: 25px;
+	color: #0cb8b6;
+	font-size: 45px;
+	margin-bottom: 25px;
 }
 .service-info{
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .icon-info h4{
-  padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 .icon-info p{
-  font-size: 15px !important;
+	font-size: 15px !important;
 }
 /***************************************
 cta-1
 ***************************************/
 .schedule-tab {
-  background-color: #0CB8B6;
-  float: left;
+	background-color: #0CB8B6;
+	float: left;
 }
 .medi-info{
-  border-right: 1px solid #fff;
+	border-right: 1px solid #fff;
 }
 .medi-info, .time-info{
-  padding: 20px;
-  color: #fff;
+	padding: 20px;
+	color: #fff;
 }
 .medi-info h3, .time-info h3{
-  padding-bottom: 16px;
-  color: #fff;
-  font-weight: 600;
+	padding-bottom: 16px;
+	color: #fff;
+	font-weight: 600;
 }
 .medi-info-btn, .medi-info-btn:hover, .medi-info-btn:focus {
     margin: 15px 0px 5px;
@@ -327,8 +272,8 @@ about
     background-color: rgba(238, 238, 238, 0.15);
 }
 .lg-line{
-  line-height: 1.4;
-  font-size: 28px;
+	line-height: 1.4;
+	font-size: 28px;
 }
 .more-features-box-text-icon {
     float: left;
@@ -350,17 +295,17 @@ about
     line-height: 26px;
 }
 .more-features-box-text-description{
-  margin-left: 80px;
-  margin-bottom: 35px;
+	margin-left: 80px;
+	margin-bottom: 35px;
 }
 .sec-para{
-  padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 /***************************************
 doctor team
 ***************************************/
 .thumbnail {
-  border-radius: 0px;
+	border-radius: 0px;
 }
 .caption h3{
     padding-bottom: 5px;
@@ -391,7 +336,7 @@ testimonial
     margin-right: 10px;
 }
 .testi-info a img{
-  border-radius: 50%;
+	border-radius: 50%;
 }
 .testi-info h3 {
     display: inline-block;
@@ -437,24 +382,27 @@ testimonial
 cta -2
 ***************************************/
 #cta-2{
-  background-color: rgb(41, 48, 46);
+	background-color: rgb(41, 48, 46);
 }
-
+.white{
+	color: #fff;
+    font-size: 70;
+}
 .icon-play, .icon-play:hover, .icon-play:focus{
-  background-color: #0CB8B6;
-  padding: 5px 10px;
-  color: #fff;
-  text-decoration: none;
-  padding: 5px 17px;
-  margin-top: 26px;
-  display: block;
+	background-color: #0CB8B6;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 17px;
+	margin-top: 26px;
+	display: block;
 }
 .text-primary {
     color: #0cb8b6;
 }
 .icon-mar
 {
-  margin-right: 7px;
+	margin-right: 7px;
 }
 /***************************************
 contact us
@@ -472,7 +420,7 @@ contact us
     border-radius: 0px;
 }
 .form-control{
-  height: 40px;
+	height: 40px;
 }
 
 .validation {
@@ -504,7 +452,7 @@ contact us
 }
 
 #sendmessage.show, #errormessage.show, .show {
-  display:block;
+	display:block;
 }
 
 .map-responsive{
@@ -546,7 +494,7 @@ contact us
 footer
 ***************************************/
 #footer{
-  background-color: #325C6A;
+	background-color: #325C6A;
 }
 .ftr-tle {
     height: 50px;
@@ -640,18 +588,7 @@ footer
     .banner-text h1{
         font-size: 24px;
     }
-
-}
-@media(max-width: 768px){
- 
-  .boxes .box{
-    float:none;
-    padding-left:50px; 
-    padding-bottom: 10px;
-    text-align:center;
-    width:75%;
-  }
-        .w {
+    .w {
 
         font-size: 30px;
 
@@ -667,25 +604,32 @@ footer
         font-size: 30px;
 
 }
-
-.res{
-  width: 300px;
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-  }
-
-
-  }
-
-  @media (max-width: 767px)
-  {
- .dropdown-menu {
-    position: static;
-    float: none;
-    width: auto;
-    margin-top: 0;
-    background-color: #fff;
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
+@media(max-width: 768px){
+ 
+  .boxes .box{
+    float:none;
+    padding-left:50px; 
+    padding-bottom: 10px;
+    text-align:center;
+    width:75%;
+  }
+
+  .lo
+{
+  margin-top: 20px;
+        width: 80%;
+        box-shadow: 3px -13px 5px 0px rgba(0, 0, 0, 0.18);
+
+}
+
+.dropdown-menu a {
+    color: red;
+    font-size: 15px;
+    text-transform: uppercase;
+
+ 
+}
+
+
 }

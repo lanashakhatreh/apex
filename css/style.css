@@ -619,6 +619,28 @@ footer
     text-transform: uppercase;
   }
 }
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+            background-color: RGBA(13, 70, 83, 0.78);
+
+}
+
+.dropdown:hover .dropdown-menu >li>a{
+  display: block;
+color: white;
+
+}
+.dropdown:hover .dropdown-menu >li>a:hover{
+  background-color: RGBA(13, 70, 83, 0.78);
+      color: #fff;
+
+}
+
+
+
+
 .dropdown-menu
 {
     background-color: RGBA(13, 70, 83, 0.78);
